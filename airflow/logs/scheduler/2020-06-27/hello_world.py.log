@@ -1,0 +1,343 @@
+[2020-06-28 01:47:58,463] {scheduler_job.py:154} INFO - Started process (PID=2756) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 01:48:03,474] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 01:48:03,475] {logging_mixin.py:112} INFO - [2020-06-28 01:48:03,475] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 01:48:03,483] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 01:48:03,492] {logging_mixin.py:112} INFO - [2020-06-28 01:48:03,492] {dag.py:1501} INFO - Creating ORM DAG for hello_world
+[2020-06-28 01:48:03,501] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.038 seconds
+[2020-06-28 02:05:00,482] {scheduler_job.py:154} INFO - Started process (PID=670) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:05:05,487] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:05:05,488] {logging_mixin.py:112} INFO - [2020-06-28 02:05:05,488] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:05:05,499] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:05:05,519] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.037 seconds
+[2020-06-28 02:07:07,608] {scheduler_job.py:154} INFO - Started process (PID=705) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:07:12,622] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:07:12,623] {logging_mixin.py:112} INFO - [2020-06-28 02:07:12,622] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:07:12,631] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:07:12,651] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.043 seconds
+[2020-06-28 02:09:15,120] {scheduler_job.py:154} INFO - Started process (PID=738) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:09:20,126] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:09:20,127] {logging_mixin.py:112} INFO - [2020-06-28 02:09:20,127] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:09:20,134] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:09:20,157] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:09:20,188] {scheduler_job.py:1294} INFO - Created <DagRun hello_world @ 2020-06-26 12:00:00+00:00: scheduled__2020-06-26T12:00:00+00:00, externally triggered: False>
+[2020-06-28 02:09:20,191] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-26 12:00:00+00:00: scheduled__2020-06-26T12:00:00+00:00, externally triggered: False>
+[2020-06-28 02:09:20,197] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-27 20:37:39.284297+00:00: manual__2020-06-27T20:37:39.284297+00:00, externally triggered: True>
+[2020-06-28 02:09:20,214] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:09:20,217] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2020-06-26 12:00:00+00:00 [success]> in ORM
+[2020-06-28 02:09:20,220] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2020-06-27 20:37:39.284297+00:00 [success]> in ORM
+[2020-06-28 02:09:20,228] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.109 seconds
+[2020-06-28 02:11:22,278] {scheduler_job.py:154} INFO - Started process (PID=770) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:11:27,289] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:11:27,290] {logging_mixin.py:112} INFO - [2020-06-28 02:11:27,290] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:11:27,298] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:11:27,325] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:11:27,341] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-26 12:00:00+00:00: scheduled__2020-06-26T12:00:00+00:00, externally triggered: False>
+[2020-06-28 02:11:27,354] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-27 20:37:39.284297+00:00: manual__2020-06-27T20:37:39.284297+00:00, externally triggered: True>
+[2020-06-28 02:11:27,364] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-27 20:40:31.999295+00:00: manual__2020-06-27T20:40:31.999295+00:00, externally triggered: True>
+[2020-06-28 02:11:27,390] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:11:27,394] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello_world.hello_task 2020-06-26 12:00:00+00:00 [scheduled]> in ORM
+[2020-06-28 02:11:27,397] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello_world.hello_task 2020-06-27 20:37:39.284297+00:00 [scheduled]> in ORM
+[2020-06-28 02:11:27,400] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2020-06-27 20:40:31.999295+00:00 [success]> in ORM
+[2020-06-28 02:11:27,410] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.132 seconds
+[2020-06-28 02:14:18,814] {scheduler_job.py:154} INFO - Started process (PID=813) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:14:23,825] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:14:23,826] {logging_mixin.py:112} INFO - [2020-06-28 02:14:23,825] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:14:23,835] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:14:23,859] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:14:23,874] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-26 12:00:00+00:00: scheduled__2020-06-26T12:00:00+00:00, externally triggered: False>
+[2020-06-28 02:14:23,881] {logging_mixin.py:112} INFO - [2020-06-28 02:14:23,880] {dagrun.py:318} INFO - Marking run <DagRun hello_world @ 2020-06-26 12:00:00+00:00: scheduled__2020-06-26T12:00:00+00:00, externally triggered: False> successful
+[2020-06-28 02:14:23,883] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-27 20:37:39.284297+00:00: manual__2020-06-27T20:37:39.284297+00:00, externally triggered: True>
+[2020-06-28 02:14:23,890] {logging_mixin.py:112} INFO - [2020-06-28 02:14:23,890] {dagrun.py:318} INFO - Marking run <DagRun hello_world @ 2020-06-27 20:37:39.284297+00:00: manual__2020-06-27T20:37:39.284297+00:00, externally triggered: True> successful
+[2020-06-28 02:14:23,892] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-27 20:40:31.999295+00:00: manual__2020-06-27T20:40:31.999295+00:00, externally triggered: True>
+[2020-06-28 02:14:23,907] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:14:23,910] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello_world.hello_task 2020-06-27 20:40:31.999295+00:00 [scheduled]> in ORM
+[2020-06-28 02:14:23,917] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.104 seconds
+[2020-06-28 02:16:43,165] {scheduler_job.py:154} INFO - Started process (PID=851) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:16:48,175] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:16:48,177] {logging_mixin.py:112} INFO - [2020-06-28 02:16:48,176] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:16:48,184] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:16:48,212] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:16:48,227] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello_world @ 2020-06-27 20:40:31.999295+00:00: manual__2020-06-27T20:40:31.999295+00:00, externally triggered: True>
+[2020-06-28 02:16:48,234] {logging_mixin.py:112} INFO - [2020-06-28 02:16:48,234] {dagrun.py:318} INFO - Marking run <DagRun hello_world @ 2020-06-27 20:40:31.999295+00:00: manual__2020-06-27T20:40:31.999295+00:00, externally triggered: True> successful
+[2020-06-28 02:16:48,238] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:16:48,242] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.077 seconds
+[2020-06-28 02:18:50,513] {scheduler_job.py:154} INFO - Started process (PID=885) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:18:55,522] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:18:55,523] {logging_mixin.py:112} INFO - [2020-06-28 02:18:55,523] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:18:55,532] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:18:55,558] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:18:55,574] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:18:55,576] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.063 seconds
+[2020-06-28 02:20:57,818] {scheduler_job.py:154} INFO - Started process (PID=917) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:21:02,828] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:21:02,829] {logging_mixin.py:112} INFO - [2020-06-28 02:21:02,829] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:21:02,838] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:21:02,862] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:21:02,877] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:21:02,880] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.062 seconds
+[2020-06-28 02:23:05,054] {scheduler_job.py:154} INFO - Started process (PID=950) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:23:10,059] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:23:10,060] {logging_mixin.py:112} INFO - [2020-06-28 02:23:10,060] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:23:10,069] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:23:10,095] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:23:10,110] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:23:10,113] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.059 seconds
+[2020-06-28 02:25:12,276] {scheduler_job.py:154} INFO - Started process (PID=982) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:25:17,287] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:25:17,288] {logging_mixin.py:112} INFO - [2020-06-28 02:25:17,288] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:25:17,297] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:25:17,322] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:25:17,337] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:25:17,339] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.063 seconds
+[2020-06-28 02:27:19,590] {scheduler_job.py:154} INFO - Started process (PID=1014) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:27:24,601] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:27:24,602] {logging_mixin.py:112} INFO - [2020-06-28 02:27:24,601] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:27:24,610] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:27:24,638] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:27:24,653] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:27:24,656] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.066 seconds
+[2020-06-28 02:29:26,739] {scheduler_job.py:154} INFO - Started process (PID=1049) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:29:31,747] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:29:31,748] {logging_mixin.py:112} INFO - [2020-06-28 02:29:31,748] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:29:31,757] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:29:31,784] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:29:31,800] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:29:31,802] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.063 seconds
+[2020-06-28 02:31:33,731] {scheduler_job.py:154} INFO - Started process (PID=1088) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:31:38,741] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:31:38,743] {logging_mixin.py:112} INFO - [2020-06-28 02:31:38,742] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:31:38,750] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:31:38,778] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:31:38,795] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:31:38,799] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.068 seconds
+[2020-06-28 02:33:40,689] {scheduler_job.py:154} INFO - Started process (PID=1123) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:33:45,695] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:33:45,697] {logging_mixin.py:112} INFO - [2020-06-28 02:33:45,696] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:33:45,707] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:33:45,733] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:33:45,748] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:33:45,751] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.062 seconds
+[2020-06-28 02:35:48,046] {scheduler_job.py:154} INFO - Started process (PID=1160) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:35:53,055] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:35:53,056] {logging_mixin.py:112} INFO - [2020-06-28 02:35:53,056] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:35:53,064] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:35:53,089] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:35:53,104] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:35:53,107] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.062 seconds
+[2020-06-28 02:37:55,914] {scheduler_job.py:154} INFO - Started process (PID=1209) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:38:00,922] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:38:00,923] {logging_mixin.py:112} INFO - [2020-06-28 02:38:00,922] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:38:00,932] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:38:00,957] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:38:00,972] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:38:00,975] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.061 seconds
+[2020-06-28 02:40:03,566] {scheduler_job.py:154} INFO - Started process (PID=1242) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:40:08,573] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:40:08,575] {logging_mixin.py:112} INFO - [2020-06-28 02:40:08,574] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:40:08,584] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:40:08,610] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:40:08,625] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:40:08,628] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.062 seconds
+[2020-06-28 02:42:10,863] {scheduler_job.py:154} INFO - Started process (PID=1274) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:42:15,869] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:42:15,870] {logging_mixin.py:112} INFO - [2020-06-28 02:42:15,869] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:42:15,878] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:42:15,905] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:42:15,920] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:42:15,923] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.060 seconds
+[2020-06-28 02:44:18,303] {scheduler_job.py:154} INFO - Started process (PID=1307) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:44:23,311] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:44:23,312] {logging_mixin.py:112} INFO - [2020-06-28 02:44:23,312] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:44:23,321] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:44:23,353] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:44:23,376] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:44:23,379] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.076 seconds
+[2020-06-28 02:46:26,498] {scheduler_job.py:154} INFO - Started process (PID=1341) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:46:31,504] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:46:31,505] {logging_mixin.py:112} INFO - [2020-06-28 02:46:31,505] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:46:31,514] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:46:31,541] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:46:31,557] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:46:31,560] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.062 seconds
+[2020-06-28 02:48:33,463] {scheduler_job.py:154} INFO - Started process (PID=1374) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:48:38,471] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:48:38,472] {logging_mixin.py:112} INFO - [2020-06-28 02:48:38,472] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:48:38,481] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:48:38,507] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:48:38,525] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:48:38,528] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.065 seconds
+[2020-06-28 02:50:40,912] {scheduler_job.py:154} INFO - Started process (PID=1411) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:50:45,917] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:50:45,919] {logging_mixin.py:112} INFO - [2020-06-28 02:50:45,918] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:50:45,927] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:50:45,949] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:50:45,963] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:50:45,966] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.054 seconds
+[2020-06-28 02:52:48,702] {scheduler_job.py:154} INFO - Started process (PID=1449) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:52:53,708] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:52:53,709] {logging_mixin.py:112} INFO - [2020-06-28 02:52:53,708] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:52:53,718] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:52:53,747] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:52:53,764] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:52:53,767] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.065 seconds
+[2020-06-28 02:54:56,770] {scheduler_job.py:154} INFO - Started process (PID=1485) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:55:01,776] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:55:01,777] {logging_mixin.py:112} INFO - [2020-06-28 02:55:01,777] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:55:01,784] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:55:01,807] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:55:01,823] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:55:01,825] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.055 seconds
+[2020-06-28 02:57:04,845] {scheduler_job.py:154} INFO - Started process (PID=1518) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:57:09,852] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:57:09,853] {logging_mixin.py:112} INFO - [2020-06-28 02:57:09,853] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:57:09,862] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:57:09,888] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:57:09,903] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:57:09,906] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.061 seconds
+[2020-06-28 02:59:12,965] {scheduler_job.py:154} INFO - Started process (PID=1551) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:59:17,971] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 02:59:17,973] {logging_mixin.py:112} INFO - [2020-06-28 02:59:17,972] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:59:17,981] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 02:59:18,010] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 02:59:18,027] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 02:59:18,030] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.064 seconds
+[2020-06-28 03:01:21,213] {scheduler_job.py:154} INFO - Started process (PID=1583) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:01:26,217] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:01:26,218] {logging_mixin.py:112} INFO - [2020-06-28 03:01:26,218] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:01:26,225] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:01:26,252] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:01:26,268] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:01:26,271] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.058 seconds
+[2020-06-28 03:03:29,061] {scheduler_job.py:154} INFO - Started process (PID=1616) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:03:34,069] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:03:34,070] {logging_mixin.py:112} INFO - [2020-06-28 03:03:34,070] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:03:34,078] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:03:34,103] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:03:34,119] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:03:34,122] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.061 seconds
+[2020-06-28 03:05:37,351] {scheduler_job.py:154} INFO - Started process (PID=1649) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:05:42,358] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:05:42,359] {logging_mixin.py:112} INFO - [2020-06-28 03:05:42,358] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:05:42,365] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:05:42,390] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:05:42,406] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:05:42,409] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.058 seconds
+[2020-06-28 03:07:45,385] {scheduler_job.py:154} INFO - Started process (PID=1683) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:07:50,392] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:07:50,393] {logging_mixin.py:112} INFO - [2020-06-28 03:07:50,392] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:07:50,402] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:07:50,434] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:07:50,456] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:07:50,459] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.074 seconds
+[2020-06-28 03:09:53,330] {scheduler_job.py:154} INFO - Started process (PID=1716) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:09:58,340] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:09:58,341] {logging_mixin.py:112} INFO - [2020-06-28 03:09:58,341] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:09:58,350] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:09:58,376] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:09:58,391] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:09:58,394] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.064 seconds
+[2020-06-28 03:12:00,530] {scheduler_job.py:154} INFO - Started process (PID=1748) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:12:05,539] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:12:05,540] {logging_mixin.py:112} INFO - [2020-06-28 03:12:05,540] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:12:05,550] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:12:05,585] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:12:05,609] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:12:05,613] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.082 seconds
+[2020-06-28 03:14:08,507] {scheduler_job.py:154} INFO - Started process (PID=1780) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:14:13,516] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:14:13,517] {logging_mixin.py:112} INFO - [2020-06-28 03:14:13,517] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:14:13,524] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:14:13,553] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:14:13,570] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:14:13,573] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.065 seconds
+[2020-06-28 03:16:16,686] {scheduler_job.py:154} INFO - Started process (PID=1813) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:16:21,694] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:16:21,695] {logging_mixin.py:112} INFO - [2020-06-28 03:16:21,695] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:16:21,702] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:16:21,729] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:16:21,746] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:16:21,749] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.063 seconds
+[2020-06-28 03:18:24,868] {scheduler_job.py:154} INFO - Started process (PID=1845) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:18:29,873] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:18:29,874] {logging_mixin.py:112} INFO - [2020-06-28 03:18:29,874] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:18:29,882] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:18:29,908] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:18:29,925] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:18:29,928] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.060 seconds
+[2020-06-28 03:20:32,578] {scheduler_job.py:154} INFO - Started process (PID=1879) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:20:37,585] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:20:37,586] {logging_mixin.py:112} INFO - [2020-06-28 03:20:37,586] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:20:37,593] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:20:37,617] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:20:37,634] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:20:37,637] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.060 seconds
+[2020-06-28 03:22:40,401] {scheduler_job.py:154} INFO - Started process (PID=1912) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:22:45,408] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:22:45,409] {logging_mixin.py:112} INFO - [2020-06-28 03:22:45,409] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:22:45,418] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:22:45,446] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:22:45,461] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:22:45,464] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.063 seconds
+[2020-06-28 03:24:48,348] {scheduler_job.py:154} INFO - Started process (PID=1944) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:24:53,354] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:24:53,355] {logging_mixin.py:112} INFO - [2020-06-28 03:24:53,354] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:24:53,363] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:24:53,389] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:24:53,403] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:24:53,406] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.058 seconds
+[2020-06-28 03:26:56,105] {scheduler_job.py:154} INFO - Started process (PID=1977) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:27:01,114] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:27:01,115] {logging_mixin.py:112} INFO - [2020-06-28 03:27:01,115] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:27:01,124] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:27:01,148] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:27:01,164] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:27:01,167] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.062 seconds
+[2020-06-28 03:29:03,883] {scheduler_job.py:154} INFO - Started process (PID=2010) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:29:08,891] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:29:08,892] {logging_mixin.py:112} INFO - [2020-06-28 03:29:08,892] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:29:08,901] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:29:08,924] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:29:08,939] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:29:08,942] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.059 seconds
+[2020-06-28 03:31:11,244] {scheduler_job.py:154} INFO - Started process (PID=2043) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:31:16,254] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:31:16,256] {logging_mixin.py:112} INFO - [2020-06-28 03:31:16,255] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:31:16,264] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:31:16,293] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:31:16,309] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:31:16,312] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.067 seconds
+[2020-06-28 03:33:18,189] {scheduler_job.py:154} INFO - Started process (PID=2076) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:33:23,197] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:33:23,198] {logging_mixin.py:112} INFO - [2020-06-28 03:33:23,198] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:33:23,207] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:33:23,231] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:33:23,247] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:33:23,249] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.061 seconds
+[2020-06-28 03:35:25,735] {scheduler_job.py:154} INFO - Started process (PID=2152) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:35:30,743] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:35:30,744] {logging_mixin.py:112} INFO - [2020-06-28 03:35:30,744] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:35:30,751] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:35:30,776] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:35:30,793] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:35:30,797] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.062 seconds
+[2020-06-28 03:37:33,947] {scheduler_job.py:154} INFO - Started process (PID=2184) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:37:38,954] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:37:38,955] {logging_mixin.py:112} INFO - [2020-06-28 03:37:38,955] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:37:38,963] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:37:38,992] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:37:39,009] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:37:39,012] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.066 seconds
+[2020-06-28 03:39:42,006] {scheduler_job.py:154} INFO - Started process (PID=2217) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:39:47,010] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:39:47,011] {logging_mixin.py:112} INFO - [2020-06-28 03:39:47,011] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:39:47,018] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:39:47,043] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:39:47,064] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:39:47,067] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.061 seconds
+[2020-06-28 03:41:50,050] {scheduler_job.py:154} INFO - Started process (PID=2249) to work on /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:41:55,057] {scheduler_job.py:1562} INFO - Processing file /Users/dpq/apache_learning/airflow/dags/hello_world.py for tasks to queue
+[2020-06-28 03:41:55,058] {logging_mixin.py:112} INFO - [2020-06-28 03:41:55,057] {dagbag.py:396} INFO - Filling up the DagBag from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:41:55,067] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /Users/dpq/apache_learning/airflow/dags/hello_world.py
+[2020-06-28 03:41:55,094] {scheduler_job.py:1284} INFO - Processing hello_world
+[2020-06-28 03:41:55,110] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-06-28 03:41:55,112] {scheduler_job.py:162} INFO - Processing /Users/dpq/apache_learning/airflow/dags/hello_world.py took 5.062 seconds
